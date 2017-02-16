@@ -16,12 +16,13 @@
 
 ## Installation
 
-TPISIdentityOCR is available through [CocoaPods](http://cocoapods.org). 需要手动加入ISIdentityOCR目录到工程中。如若需要集成该功能，请联系合合信息公司，获取OCR的SDK。
+TPISIdentityOCR is not available through [CocoaPods](http://cocoapods.org). 你需要手动加入ISIdentityOCR目录到工程中。如若需要集成该功能，请联系合合信息公司，获取OCR的SDK。
 
 ## Requirements
 工程配置  
-1. 将Release文件夹下的ISIDReaderPreviewSDK.framework和ISOpenSDKFoundation.embeddedframework 添加到您的工程项目中。2. 在您的工程项目“BuildPhases->Link Binary With Libraries” 中加入如下配置:1) “libstdc++.tbd”;2) “AVFoundation.framework”;3. 在您的工程项目配置“BuildSettings->Other Linker Flags”中加入“-ObjC” 。
-
+1. 将Release文件夹下的ISIDReaderPreviewSDK.framework和ISOpenSDKFoundation.embeddedframework 添加到您的工程项目中。  
+2. 在您的工程项目“BuildPhases->Link Binary With Libraries” 中加入如下配置:“libstdc++.tbd”,“AVFoundation.framework”;  
+3. 在您的工程项目配置“BuildSettings->Other Linker Flags”中加入“-ObjC” 。
 
 ## Author
 
